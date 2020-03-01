@@ -1,0 +1,24 @@
+{
+  "name": "countdown-clock",
+  "version": "1.0.0",
+  "description": "a clock",
+  "main": "countdown.js",
+  "bin": {
+    "countdown": "countdown.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clock",
+    "countdown",
+    "timer"
+  ],
+  "author": "Adam",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "single-line-log": "^1.1.2",
+    "tiny-timer": "^1.4.0"
+  }
+}
